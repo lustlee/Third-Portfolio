@@ -1,0 +1,350 @@
+body {
+    font-size: 14px;
+    line-height: 22.4px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1200px;
+    min-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+#header {
+    background: #d34346;
+    -webkit-box-shadow: inset 0px -10px 0px 0px rgba(189, 45, 48, 1);
+    -moz-box-shadow:    inset 0px -10px 0px 0px rgba(189, 45, 48, 1);
+    box-shadow:         inset 0px -10px 0px 0px rgba(189, 45, 48, 1);
+}
+.navbar-brand {
+    margin-top: 28px;
+    background: url("../img/main-logo.svg") 0 0 no-repeat;
+    width: 152px;
+    height: 30px;
+}
+.navbar-nav {
+    margin-left: 146px;
+}
+.navbar-nav li {
+    padding: 18px 29px 10px;
+}
+.navbar-nav > li:hover {
+    background: #bd2d30;
+    color: #ffffff;
+}
+.menu-link {
+    font-weight: 800;
+    color: #9daeb6;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #ffffff;
+}
+.div {
+    position: relative;
+}
+.slick-next
+{
+    background: #d34346 url("../img/slider-arrow-sprite.png") -29px center no-repeat;
+}
+.slick-prev {
+    background: #d34346 url("../img/slider-arrow-sprite.png") 11px center no-repeat;
+}
+.info-block {
+    width: 42%;
+    position: absolute;
+    bottom: 10px;
+    left: 150px;
+}
+.box-red {
+    margin: 0;
+    color: #ffffff;
+    background: #D05054;
+    border-left: 10px solid #BE3639;
+    padding: 14px 24px;
+    position: relative;
+}
+.box-green {
+    margin: 0;
+    color: #ffffff;
+    background: #46586A;
+    border-left: 10px solid #2B3945;
+    padding: 14px 23px;
+    position: relative;
+}
+.title-box {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 900;
+}
+.title-box-uppercase {
+    text-transform: uppercase;
+}
+.title-box span {
+    font-weight: 400;
+}
+.description-box-green {
+    font-size: 16px;
+    line-height: 24px;
+}
+#benefit {
+    background: #f7f7f7;
+    padding: 69px 0 72px;
+}
+.benefit-icon {
+    float: left;
+    display: inline-block;
+    margin-right: 22px;
+    margin-bottom: 15%;
+}
+.fa-road, .fa-leaf, .fa-home, .fa-users {
+    color: #2c3e50;
+    font-size: 32px;
+}
+.benefit-title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #bd2c30;
+    font-weight: 600;
+}
+.benefit-text {
+    font-size: 14px;
+    line-height: 21px;
+    color: #212121;
+    padding-top: 2px;
+}
+#about-us {
+    background: #efefef;
+    padding-bottom: 52px;
+}
+.about-us-item {
+    margin-top: 51px;
+}
+.about-us-title {
+    color: #2c3e50;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 800;
+}
+.about-us-description {
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #111111;
+    margin-top: 28px;
+}
+.about-us-choice-list {
+    list-style: none;
+    padding: 27px 11px;
+}
+.fa-arrow-right {
+    color: #d34346;
+    font-size: 14px;
+    line-height: 16.8px;
+    margin-right: 14px;
+}
+.choise-item {
+    font-size: 14px;
+    line-height: 25.9px;
+    color: #111111;
+}
+.quotes-body {
+    margin-top: 31px;
+}
+.quote-text {
+    margin-bottom: 7px;
+    background: #f7f7f7;
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #111111;
+    font-style: italic;
+    padding: 27px 39px;
+    position: relative;
+}
+.quote-text::after {
+    display: inline-block;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 18px 18px 0;
+    border-color: transparent #f7f7f7 transparent transparent;
+    position: absolute;
+    bottom: -17px;
+    left: 24px;
+}
+.quote-author {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #bd2d30;
+    margin-left: 58px;
+}
+#services {
+    background: #f7f7f7;
+    padding-bottom: 82px;
+}
+.services-item {
+    margin-top: 67px;
+}
+.services-icon {
+    padding-left: 46px;
+    padding-bottom: 16px;
+    display: inline-block;
+}
+.fa-comments, .fa-table, .fa-flask, .fa-cogs, .fa-bar-chart, .fa-plane {
+    font-size: 50px;
+    line-height: 60px;
+    color: #bd2c30;
+}
+.services-title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #bd2c30;
+    font-weight: 600;
+    padding-left: 18px;
+}
+.services-text {
+    padding-top: 22px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #212121;
+}
+.prices-item {
+    margin-top: 53px;
+}
+.box-green-prices {
+    padding: 14px 16px;
+}
+.title-box-prices {
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 700;
+}
+.pricing-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.pricing-item {
+    max-width: 269px;
+    width: 100%;
+    margin-top: 52px;
+}
+.pricing-body {
+    background: #f7f7f7;
+    min-height: 293px;
+}
+.price {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #314559;
+    text-align: left;
+    margin: 10px 0 10px 27px;
+}
+.price span {
+    font-size: 15px;
+}
+.list-plan {
+    list-style: none;
+    padding: 6px 0px 9px;
+}
+.pricing-plan-description {
+    border-top: 1px solid #c2c2c2;
+    padding: 15px 23px;
+    font-size: 14px;
+    color: #314559;
+    line-height: 17px;
+}
+.btn-wrapper {
+    background: #314559;
+    text-align: center;
+    margin-top: 9px;
+}
+.btn {
+    display: block;
+    padding: 14px 0;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+}
+.btn span {
+    text-transform: uppercase;
+}
+.fa-check-square-o {
+    color: #314559;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 9px;
+}
+#prices {
+    padding-bottom: 50px;
+}
+.active-box {
+    background: #d34346;
+    border-left: 10px solid #c62f31;
+}
+.active {
+    color: #d34346;
+}
+.active-btn {
+    background: #d34346;
+}
+.sign-up-block {
+    background: #f7f7f7;
+    padding: 39px 27px;
+}
+.sign-up-title {
+    font-size: 18px;
+    line-height: 21px;
+    color: #314559;
+    font-weight: 700;
+}
+.sign-up-text {
+    font-size: 14px;
+    line-height: 23px;
+    color: #111111;
+}
+.subscribe-btn {
+    display: inline-block;
+    padding: 3px 50px;
+}
+#footer {
+    background: #314559;
+    padding: 19px 0;
+    text-align: right;
+}
+.footer-text {
+    line-height: 16px;
+    color: #ffffff;
+    text-align: left;
+    display: block;
+}
+.footer-text-designer {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7694b3;
+}
+.scroll-up-box {
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    background: rgba(0,0,0,0.3);
+}
+.fa-arrow-up {
+    padding: 8px;
+    color: #314559;
+}
+.scroll-up-box-to-title {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
